@@ -14,7 +14,7 @@ import socks
 import S5Crypto
 
 class NexCloudClient(object):
-    def __init__(self, user,password,path='https://nube.uclv.cu/',proxy:ProxyCloud=None):
+    def __init__(self, user,password,path='https://nube.reduc.edu.cu/',proxy:ProxyCloud=None):
         self.user = user
         self.password = password
         self.session = requests.Session()
